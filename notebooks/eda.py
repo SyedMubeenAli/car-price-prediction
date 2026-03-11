@@ -1,16 +1,3 @@
-"""
-=============================================================================
- Car Price Prediction — Exploratory Data Analysis (EDA)
-=============================================================================
- Run this script to generate all EDA visualizations and insights.
- 
- Usage:
-   python notebooks/eda.py
- 
- Plots are saved to notebooks/plots/ folder and also displayed.
-=============================================================================
-"""
-
 import os
 import sys
 import warnings
@@ -144,7 +131,7 @@ print("  → Saved: plots/distributions.png")
 # Insight
 print("""
   📌 Insights:
-   • Selling_Price is right-skewed — most cars sell below ₹10L, a few outliers above ₹30L.
+   • Selling_Price is right-skewed — most cars sell below ₹10L, a few outliers above pkr30L.
    • Present_Price has a similar skew — dominated by affordable vehicles.
    • Kms_Driven is concentrated under 80K km, with a few high-mileage outliers.
    • Most vehicles are 5–15 years old (ages 5–15 given current year).
